@@ -1,0 +1,27 @@
+{
+  "name": "techBlog",
+  "version": "1.0.0",
+  "description": "# 14 Model-View-Controller (MVC): Tech Blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel6roth/techBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel6roth/techBlog/issues"
+  },
+  "homepage": "https://github.com/samuel6roth/techBlog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.1",
+    "sequelize": "^6.6.2"
+  }
+}
